@@ -1,0 +1,43 @@
+apply plugin: "java"
+
+sourceCompatibility = 1.8
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+apply plugin: "java"
+
+sourceSets {
+    generated {
+        java {
+            srcDirs = ['src/main/generated']
+        }
+    }
+}
+
+configurations {
+    processors
+}
+dependencies {
+    processors project(":annotation-processor")
+    compile project(":core")
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'org.apache.logging.log4j:log4j-core:2.3'
+    compile 'org.apache.logging.log4j:log4j-api:2.3'
+    compile 'org.apache.logging.log4j:log4j-jul:2.3'
+
+
+}
+task generateProcs(type: JavaCompile, group: 'build',) {
+    source = sourceSets.main.java
+    classpath = configurations.compile + configurations.processors;
+    options.compilerArgs = [
+            "-proc:only",
+            "-processor", "org.synopia.shadow.InterfaceProcessor",
+            "-ApackageName=org.synopia.shadow.example",
+            "-Aprefix=S",
+    ]
+    destinationDir = sourceSets.generated.java.srcDirs.iterator().next();
+}
+compileJava {
+    dependsOn generateProcs
+    source generateProcs.destinationDir
+}
