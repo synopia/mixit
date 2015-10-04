@@ -1,0 +1,326 @@
+tiles.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+audiobuttons
+  rotate: false
+  xy: 2, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+audiobuttons
+  rotate: false
+  xy: 68, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 6
+audiobuttons
+  rotate: false
+  xy: 102, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 7
+audiobuttons
+  rotate: false
+  xy: 136, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 9
+audiobuttons
+  rotate: false
+  xy: 170, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 10
+audiobuttons
+  rotate: false
+  xy: 204, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 11
+audiobuttons_pressed
+  rotate: false
+  xy: 238, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+audiobuttons_pressed
+  rotate: false
+  xy: 2, 68
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 6
+audiobuttons_pressed
+  rotate: false
+  xy: 36, 68
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 7
+audiobuttons_pressed
+  rotate: false
+  xy: 70, 68
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 9
+audiobuttons_pressed
+  rotate: false
+  xy: 104, 68
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 10
+audiobuttons_pressed
+  rotate: false
+  xy: 138, 68
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 11
+background
+  rotate: false
+  xy: 2, 102
+  size: 263, 89
+  orig: 263, 89
+  offset: 0, 0
+  index: -1
+effect_knob
+  rotate: false
+  xy: 2, 193
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+effect_knob
+  rotate: false
+  xy: 68, 193
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+effect_knob
+  rotate: false
+  xy: 134, 193
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+effect_knob
+  rotate: false
+  xy: 200, 193
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+effect_knob
+  rotate: false
+  xy: 266, 193
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+effect_knob
+  rotate: false
+  xy: 2, 259
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 5
+effect_knob
+  rotate: false
+  xy: 68, 259
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 6
+effect_knob
+  rotate: false
+  xy: 134, 259
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 7
+effect_knob
+  rotate: false
+  xy: 200, 259
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 8
+effect_knob
+  rotate: false
+  xy: 266, 259
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 9
+effect_knob
+  rotate: false
+  xy: 2, 325
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 10
+effect_knob
+  rotate: false
+  xy: 68, 325
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 11
+effect_knob
+  rotate: false
+  xy: 134, 325
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 12
+effect_knob
+  rotate: false
+  xy: 200, 325
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 13
+effect_knob
+  rotate: false
+  xy: 266, 325
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 14
+effect_knob
+  rotate: false
+  xy: 2, 391
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 15
+effect_knob
+  rotate: false
+  xy: 68, 391
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 16
+effect_knob
+  rotate: false
+  xy: 134, 391
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 17
+effect_knob
+  rotate: false
+  xy: 200, 391
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 18
+effect_knob
+  rotate: false
+  xy: 266, 391
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 19
+effect_knob
+  rotate: false
+  xy: 2, 457
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 20
+effect_knob
+  rotate: false
+  xy: 68, 457
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 21
+effect_knob
+  rotate: false
+  xy: 134, 457
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 22
+effect_knob
+  rotate: false
+  xy: 200, 457
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 23
+effect_knob
+  rotate: false
+  xy: 266, 457
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 24
+effect_knob
+  rotate: false
+  xy: 2, 523
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 25
+effect_knob
+  rotate: false
+  xy: 68, 523
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 26
+effect_knob
+  rotate: false
+  xy: 134, 523
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 27
+effect_knob
+  rotate: false
+  xy: 200, 523
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 28
+effect_knob
+  rotate: false
+  xy: 266, 523
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 29
+effect_knob
+  rotate: false
+  xy: 2, 589
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 30
+tempo_back
+  rotate: false
+  xy: 68, 589
+  size: 64, 396
+  orig: 64, 396
+  offset: 0, 0
+  index: -1
+tempo_knob
+  rotate: false
+  xy: 134, 589
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
