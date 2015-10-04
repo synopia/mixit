@@ -1,0 +1,6 @@
+[submodule "shadow-objects"]
+	path = shadow-objects
+	url = https://github.com/synopia/shadow-objects.git
+[submodule "tarsos-dsp"]
+	path = tarsos-dsp
+	url = https://github.com/synopia/TarsosDSP.git
